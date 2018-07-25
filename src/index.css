@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.suspended .node-label {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.dropdown-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.node .fa {
+  font-size: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.node .fa-ban {
+  color: darkorange;
+}
